@@ -1,0 +1,15 @@
+/* item list css properties */
+.homeHeader, .addHeader {
+      display: flex; 
+      flex-direction: row; 
+      align-items: center; 
+      justify-content: space-between; 
+      padding: 32px 24px 24px 24px;
+      height: 96px;
+}
+.create{
+      cursor: pointer;
+}
+.create:active{
+      filter: invert(69%) sepia(73%) saturate(654%) hue-rotate(152deg) brightness(102%) contrast(103%);
+}

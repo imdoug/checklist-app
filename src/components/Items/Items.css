@@ -1,0 +1,67 @@
+.itemList{
+      height: 60px; 
+      display: flex;
+      flex-direction: row; 
+      width: 90%; 
+      margin: 0 auto; 
+      border: 0.75px solid #ececee; 
+      border-radius: 8px; 
+      box-sizing: border-box;
+      cursor: pointer;
+      margin-bottom: 16px;
+}
+.innerItem{
+      display: flex; 
+      justify-content: space-between;
+      width: 100%;
+      padding: 0px 16px;
+      align-items: center;
+}
+.innerItem > p {
+      font-weight: 600;
+      font-size: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+.plusVector {
+      height: 14.62px; 
+      color: #28292E; 
+      align-self: center;
+}
+.dotVector{
+      height: 3.75px; 
+      width: 19.25px;
+      color: #28292E; 
+      align-self: center;
+}
+.itemList:hover{
+      box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
+}
+.itemList:active{
+      background-color: #f4f4f4;
+}
+/* dropdown menu */
+.edit{
+      z-index: 5;
+      top: 40px;
+      left: -91px;
+      font-size: 22px;
+      width: 155;
+      height: 54px;
+      border-radius: 6px;
+}
+.edit:active{
+      color: #2FE6FF;
+      filter: invert(69%) sepia(73%) saturate(654%) hue-rotate(152deg) brightness(102%) contrast(103%);
+}
+.delete{
+      width: 115px;
+      height: 54px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.options:active{
+      filter: invert(69%) sepia(73%) saturate(654%) hue-rotate(152deg) brightness(102%) contrast(103%);
+}
