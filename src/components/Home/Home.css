@@ -5,11 +5,22 @@
       align-items: center; 
       justify-content: space-between; 
       padding: 32px 24px 24px 24px;
-      height: 96px;
 }
 .create{
+      border-radius: 8px;
       cursor: pointer;
+      padding: 8.25px;
 }
-.create:active{
-      filter: invert(69%) sepia(73%) saturate(654%) hue-rotate(152deg) brightness(102%) contrast(103%);
+.create:active svg > path{
+      fill: #2FE6FF;   
+}
+.create:hover{
+      background: #f4f4f4;    
+}
+
+@media only screen and (min-width: 1040px) {
+      .homeHeader{
+            padding-left: 40px;
+            padding-right: 40px;
+      }
 }

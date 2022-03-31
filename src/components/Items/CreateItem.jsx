@@ -8,7 +8,7 @@ const CreateItem = ({goToAdd}) => {
       <div  className='itemList' onClick={goToAdd}>
             <div className='innerItem'>
                   <div>
-                        <p>Create a list</p>
+                        <p style={{fontSize: 20}}>Create a list</p>
                   </div>
                   <div>
                         <Link to="/add">

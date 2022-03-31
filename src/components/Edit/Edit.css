@@ -1,0 +1,27 @@
+.done{
+      cursor: pointer;
+      color: #505050;
+}
+.done:hover{
+      color: #242424;
+}
+.done:active{
+      color: #2FE6FF;
+}
+
+.cancel{
+      cursor: pointer;
+      color: #505050;
+}
+.cancel:hover{
+      color: #242424;
+}
+.cancel:hover svg > path{
+      fill: #242424;
+}
+.cancel:active{
+      color: #2FE6FF;
+}
+.cancel:active svg > path{
+      fill: #2FE6FF;
+}

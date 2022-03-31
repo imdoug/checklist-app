@@ -1,20 +1,30 @@
 .itemList{
       height: 60px; 
       display: flex;
-      flex-direction: row; 
-      width: 90%; 
+      flex-direction: row;
+      max-width: 960px;
+      min-width: 327px;
       margin: 0 auto; 
       border: 0.75px solid #ececee; 
       border-radius: 8px; 
       box-sizing: border-box;
       cursor: pointer;
       margin-bottom: 16px;
+      margin-left: 24px;
+      margin-right: 24px;
 }
 .innerItem{
       display: flex; 
       justify-content: space-between;
       width: 100%;
       padding: 0px 16px;
+      align-items: center;
+}
+.innerCustomeItem{
+      display: flex; 
+      justify-content: space-between;
+      width: 100%;
+      padding-left: 16px;
       align-items: center;
 }
 .innerItem > p {
@@ -53,7 +63,6 @@
 }
 .edit:active{
       color: #2FE6FF;
-      filter: invert(69%) sepia(73%) saturate(654%) hue-rotate(152deg) brightness(102%) contrast(103%);
 }
 .delete{
       width: 115px;
@@ -62,6 +71,12 @@
       justify-content: center;
       align-items: center;
 }
-.options:active{
-      filter: invert(69%) sepia(73%) saturate(654%) hue-rotate(152deg) brightness(102%) contrast(103%);
+
+@media only screen and (min-width: 1040px) {
+      .itemList{
+            margin-left: 0;
+            margin-right: 0;
+            margin: 0 auto;
+            margin-bottom: 16px;
+      }
 }
