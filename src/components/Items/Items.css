@@ -23,8 +23,9 @@
 .innerCustomeItem{
       display: flex; 
       justify-content: space-between;
+      overflow: hidden;
       width: 100%;
-      padding-left: 16px;
+      padding: 0px 16px;
       align-items: center;
 }
 .innerItem > p {

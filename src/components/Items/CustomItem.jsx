@@ -7,8 +7,8 @@ const CustomItem = ({checklist, deleteItem, editItem}) => {
             {checklist.map((value, index)=>(
             <>
                   <div className='itemList' key={value.id}>
-                        <div className='innerItem'>
-                              <p>{value.title}</p>
+                        <div className='innerCustomeItem'>
+                              <p style={{whiteSpace: 'nowrap', overflow:' hidden', textOverflow: 'ellipsis'}}>{value.title}</p>
                         </div>
                         <Dropdown deleteItem={deleteItem} editItem={editItem} item={value} index={index}/>
                   </div>
