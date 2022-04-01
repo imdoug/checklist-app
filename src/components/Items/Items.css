@@ -51,26 +51,6 @@
 .itemList:active{
       background-color: #f4f4f4;
 }
-/* dropdown menu */
-.edit{
-      z-index: 5;
-      top: 40px;
-      left: -91px;
-      font-size: 22px;
-      width: 155;
-      height: 54px;
-      border-radius: 6px;
-}
-.edit:active{
-      color: #2FE6FF;
-}
-.delete{
-      width: 115px;
-      height: 54px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
 
 @media only screen and (min-width: 1040px) {
       .itemList{
