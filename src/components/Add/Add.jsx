@@ -1,10 +1,9 @@
-import Reac, {useState} from 'react'
+import React, {useState} from 'react'
 import { useNavigate } from "react-router-dom";
 import './Add.css'
 
 const Add = ({addNewItem, checklist}) => {
       const [title, setTitle]= useState('')
-      const [error, setError]= useState(false)
 
       let navigate = useNavigate(); 
       const goToHome = () =>{ 
