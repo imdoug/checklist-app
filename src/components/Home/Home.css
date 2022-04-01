@@ -1,0 +1,26 @@
+/* item list css properties */
+.homeHeader, .addHeader {
+      display: flex; 
+      flex-direction: row; 
+      align-items: center; 
+      justify-content: space-between; 
+      padding: 32px 24px 24px 24px;
+}
+.create{
+      border-radius: 8px;
+      cursor: pointer;
+      padding: 8.25px;
+}
+.create:active svg > path{
+      fill: #2FE6FF;   
+}
+.create:hover{
+      background: #f4f4f4;    
+}
+
+@media only screen and (min-width: 1040px) {
+      .homeHeader{
+            padding-left: 40px;
+            padding-right: 40px;
+      }
+}

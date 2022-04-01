@@ -1,0 +1,136 @@
+/* .dropdown{
+      font-size: 18px;
+      width: 123px;
+      border: 0.75 solid  #ececec;
+      box-sizing: border-box;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08)
+} */
+.dotdotdot{
+      background-color: #fff;
+      border: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+      cursor: pointer;
+}
+.dotdotdot:hover {
+      background: #F4F4F4;
+}
+.dotdotdot:active svg > path {
+      fill: #2FE6FF;
+}
+/* dropdown */
+.dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #FFF;
+      padding: 4px;
+      width: 123px;
+      height: 116px;
+      border: 0.75px solid #ECECEC;
+      box-sizing: border-box; 
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+    .edit-btn:hover{
+      background: #F4F4F4;
+}
+    .delete-btn:hover{
+      background: #F4F4F4;
+    }
+    .edit-btn:active > p {
+          color: #2FE6FF;
+    }
+    .edit-btn:active svg > path{
+          fill: #2FE6FF;
+    }
+
+    .delete-btn:active > p {
+            color: #FF3333;
+      }
+      .delete-btn:active div svg g > path{
+            fill: #FF3333;
+      }
+
+/* #btn{
+      border-radius: 8px;
+      height: 32px;
+      width: 32px; 
+      min-width: 32px;    
+}
+#btn:active svg > path{
+      fill: #2FE6FF;
+}
+#basic-menu{
+      padding-top: 0px;
+      padding-bottom: 0px;
+}
+#basic-menu div.MuiPaper-root{
+      padding: 0;
+     height: 116px;
+     width: 123px;
+     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+     box-sizing: border-box;
+     border: 0.75px solid #ECECEC;
+     border-radius: 8px;
+}
+#basic-menu div > ul.MuiList-root{
+      padding: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      height: 103px;
+      padding: 4px;
+
+}
+#basic-menu div.MuiPaper-root > ul > li.MuiMenuItem-root{
+      width: 115px;
+      border-radius: 8px;
+      height: 22px;
+
+}
+
+#basic-menu div.MuiPaper-root > ul > li.MuiMenuItem-root:hover{
+      background: #f5f5f5;
+}
+#edit:active > p{
+   color: #2FE6FF;
+}
+#edit:active svg > path {
+      
+} */
+
+

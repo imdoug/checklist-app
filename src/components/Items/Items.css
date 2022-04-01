@@ -1,0 +1,63 @@
+.itemList{
+      height: 60px; 
+      display: flex;
+      flex-direction: row;
+      max-width: 960px;
+      min-width: 327px;
+      margin: 0 auto; 
+      border: 0.75px solid #ececee; 
+      border-radius: 8px; 
+      box-sizing: border-box;
+      cursor: pointer;
+      margin-bottom: 16px;
+      margin-left: 24px;
+      margin-right: 24px;
+}
+.innerItem{
+      display: flex; 
+      justify-content: space-between;
+      width: 100%;
+      padding: 0px 16px;
+      align-items: center;
+}
+.innerCustomeItem{
+      display: flex; 
+      justify-content: space-between;
+      overflow: hidden;
+      width: 100%;
+      padding: 0px 16px;
+      align-items: center;
+}
+.innerItem > p {
+      font-weight: 600;
+      font-size: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+}
+.plusVector {
+      height: 14.62px; 
+      color: #28292E; 
+      align-self: center;
+}
+.dotVector{
+      height: 3.75px; 
+      width: 19.25px;
+      color: #28292E; 
+      align-self: center;
+}
+.itemList:hover{
+      box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
+}
+.itemList:active{
+      background-color: #f4f4f4;
+}
+
+@media only screen and (min-width: 1040px) {
+      .itemList{
+            margin-left: 0;
+            margin-right: 0;
+            margin: 0 auto;
+            margin-bottom: 16px;
+      }
+}
