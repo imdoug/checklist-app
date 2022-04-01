@@ -4,11 +4,8 @@ import './Dropdown.css'
 import { useNavigate } from "react-router-dom";
 
 const Dropdown = ({ item, index, deleteItem, editItem }) => {
-      const [anchorEl, setAnchorEl] = useState(null)
       const [toggle, setToggle] = useState('none')
-      const open = Boolean(anchorEl)
       let navigate = useNavigate();
-
       const toggleDropdown = ( ) =>{
             if(toggle === 'block'){
                   setToggle('none')
@@ -16,20 +13,10 @@ const Dropdown = ({ item, index, deleteItem, editItem }) => {
                   setToggle('block')
             }
       }
-
-      const handleClick = (event) => {
-            setAnchorEl(event.currentTarget)
-      };
-      const handleClose = () => {
-            setAnchorEl(null);
-      };
       const delItem = (index) =>{
-            handleClose()
             deleteItem(index)
       }
       const goToEdit = (item) =>{ 
-            console.log(item)
-            handleClose()
             editItem(item)
             let path = '/edit'; 
             navigate(path);

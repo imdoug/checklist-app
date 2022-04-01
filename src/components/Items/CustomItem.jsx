@@ -1,5 +1,4 @@
-import React,{ useState} from 'react'
-import { useNavigate } from "react-router-dom";
+import React from 'react'
 import Dropdown from '../Dropdown/Dropdown';
 
 const CustomItem = ({checklist, deleteItem, editItem}) => {
